@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio of Franklin</title>
+</head>
+<body>
+    <h1>Education History</h1>
+
+    <table style="border: 1px solid black; border-collapse: collapse;">
+        <thead>
+            <th style="border: 1px solid black;">School Name</th>
+            <th style="border: 1px solid black;">Year Start</th>
+            <th style="border: 1px solid black;">Year Finish</th>
+            <th style="border: 1px solid black;">Certificate/Diploma</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="border: 1px solid black;">High School</td>
+                <td style="border: 1px solid black;">2014</td>
+                <td style="border: 1px solid black;">2017</td>
+                <td style="border: 1px solid black;">High School Diploma</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black;">College</td>
+                <td style="border: 1px solid black;">1997</td>
+                <td style="border: 1px solid black;">2001</td>
+                <td style="border: 1px solid black;">College Degree</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black;">Coding Bootcamp</td>
+                <td style="border: 1px solid black;">2023</td>
+                <td style="border: 1px solid black;">2023</td>
+                <td style="border: 1px solid black;">Certificate</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h1>Traveling Experiance</h1>
+    <ul>
+        <li style="list-style-position: outside; display: flex; align-items: center;">
+            <p>Canada:</p>  <br><br>
+            <img src="media/images/Canada.png" alt="The Great White North" style="max-width:150px;">
+        </li>
+        <li style="list-style-position: outside; display: flex; align-items: center;">
+            <p>Tokyo:</p>  <br><br>
+            <img src="media/images/Tokyo.avif" alt="Tokyo Landscape" style="max-width:150px;">
+        </li>
+        <li style="list-style-position: outside; display: flex; align-items: center;">
+            <p>America: </p>   <br><br>
+            <video width="320" height="240" controls alt="Average New York Experiance">
+                <source src="media/videos/avreage-newyork-exp.mp4">
+                Your browser does not support the video tag.
+            </video>
+        </li>
+        <li style="list-style-position: outside; display: flex; align-items: center;">
+            <p>France:</p> <br>
+            <audio controls alt="Audio Tour of the Lourve">
+                <source src="media/audio/paris-louvre-museum.mp3" type="audio/mpeg">
+                Your browser does not support the audio tag.
+            </audio>
+        </li>
+    </ul>
+
+    <h1>Hobbies</h1>
+        <ul>
+            <li>
+                <strong>Reading</strong>
+                <p>I enjoy reading <strong>fantasy</strong> stories the most as an escape from real life.</p>
+            </li>
+            <li>
+                <strong>Playing Games</strong>
+                <p>Whether virtual or acutal, video or real, I enjoy the challenge, the story, or just simply having fun with friends </p>
+            </li>
+            <li>
+                <strong>Cooking</strong>
+                <P>While the process of prepping and eating are pleasurable, <strong>cleaning up</strong> is a part I detest</P>
+            </li>
+            <li>
+
+            </li>
+        </ul>
+    <h1>Contact Me</h1>
+    <p><u>Enter in your contact info below:</u></p>
+
+    <form action="two.html" method="post">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <span>Best way to contact you:</span><br><br>
+        <label for="phone">Phone</label>
+        <input type="radio" id="phone" name="phone">
+        <label for="email">Email</label>
+        <input type="radio" id="email" name="email"> <br>
+        <label for="contact">Contact Info:</label>
+        <input type="text" id="contact" name="contact"> <br><br>
+
+        <span><u>Best time to contact you:</u></span><br>
+        <label for="time1">Morning (6:00 AM to 10:00 AM)</label>
+        <input type="checkbox" id="time1" name="time">
+        <label for="time2">Nid Day (10:00 AM to 12:00 PM)</label>
+        <input type="checkbox" id="time2" name="time">
+        <label for="time3">Noon (12:00 PM to 3:00 PM)</label>
+        <input type="checkbox" id="time3" name="time">
+        <label for="time4">Afternoon (3:00 PM to 6:00 PM)</label>
+        <input type="checkbox" id="time4" name="time">
+        <label for="time5">Noon (6:00 PM to 9:00 PM)</label>
+        <input type="checkbox" id="time5" name="time"> <br><br>
+
+        <label for="country">Which Counrty are you in?</label>
+        <select name="country" id="countyr">
+            <option value="america">United States of America</option>
+            <option value="else">Not America</option>
+        </select> <br><br>
+
+        <label for="addtional">Any additional information</label><br>
+        <textarea name="additional" id="additional" rows="4" cols="50" placeholder="placeholder text here"></textarea><br><br>
+        <input type="submit" value="Submit">
+        
+    </form>
+    
+</body>
+</html>
