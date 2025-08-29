@@ -1,5 +1,7 @@
-# repo
-Assignment 1: create a personal portfolio
+# Creating a personal portfolio
+Used the most basic html to create a Portfolio 
+```
+Assignment 1:
 
 Create a personal portfolio webpage using HTML only (no CSS or JavaScript). Your page must include the following sections:
 
@@ -43,3 +45,4 @@ Dropdown list (<select>)
 Text area (<textarea>)
 Submit button (<button>)
 Every <label> must use the for attribute matching the input’s id
+```
